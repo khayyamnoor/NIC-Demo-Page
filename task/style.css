@@ -1,0 +1,54 @@
+h1{
+    padding-left: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.container{
+    height: 530px;
+    width:95%;
+    margin: 0 auto;  /* aligns the container outside the div in the center*/
+    background-color:  #f7f3f4;
+    display: flex; /* turns on flex*/
+    flex-direction: row; /* aligns the divs into a row*/
+    justify-content:space-evenly; /* adds spacing between the divs from all sides */
+    align-items: center;
+
+}
+.container div{
+    width: 270px;
+    height: 450px;
+    border: solid 10px white;
+    background-color: white;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 110px;
+    align-content: center;
+}
+.links{
+    display: inline;
+    float: right;
+    padding: 10px 17px;
+    color: rgb(96, 114, 114);
+    text-decoration: none;
+}
+.links:hover{
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    transition: all 2s;
+}
+.ignite{
+    width: 150px;
+    height: 100px;
+    align-content: center;
+}
+.navbar{
+    padding-right: 35px;
+}
+#ok{
+    background-color: orange;
+    border-radius: 0%;
+    color: white;
+}
